@@ -1,0 +1,3 @@
+git config  user.name "Vanderlei"
+git config  user.mail "vanderlei.princival@gmail.com"
+git commit -m "arquivo_aula"
