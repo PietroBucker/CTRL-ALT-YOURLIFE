@@ -42,3 +42,4 @@ Espaço aberto para recrutadores realizar uma busca refinada e de qualidade com 
 **Front-end:** React, Redux, TailwindCSS
 
 **Back-end:** Node, Express
+
