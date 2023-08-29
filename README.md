@@ -24,9 +24,9 @@ Espaço aberto para recrutadores realizar uma busca refinada e de qualidade com 
 
 ## Stack utilizada
 
-**Front-end:** React, Redux, TailwindCSS
+**Front-end:** HTML, CSS, JavaScript
 
-**Back-end:** Node, Express
+**Back-end:** Node, 
 
 ## Autores
 
