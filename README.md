@@ -13,11 +13,11 @@ Espaço aberto para recrutadores realizar uma busca refinada e de qualidade com 
 
 | Cor               | Hexadecimal  |
 | ----------------- | ------------ |
-| Smoky Black       |    #100c08   |
-| Jet               |    #343434   |
-| Gray              |    #808080   |
-| Gold Metalic      |    #b29146   |
-| Gold              |    #ffd700   |     
+| Smoky Black       |    #14110f   |
+| Jet               |    #34312d   |
+| Gray              |    #7e7f83   |
+| Gold Metalic      |    #e1b942   |
+| Gold              |    #ffd413   |     
 
 https://github.com/PietroBucker/CTRL-ALT-YOURLIFE/blob/main/img/logo-2x.png
 
@@ -26,7 +26,6 @@ https://github.com/PietroBucker/CTRL-ALT-YOURLIFE/blob/main/img/logo-2x.png
 
 **Front-end:** HTML, CSS, JavaScript
 
-**Back-end:** Node, 
 
 ## Autores
 
