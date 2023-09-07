@@ -7,3 +7,33 @@
     font-family: sans-serif;
 }
 /* esse codi acima zera todo o Css */
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #f0cb47;
+}
+
+section {
+    align-items: center;
+    background-image: linear-gradient(black, rgb(80, 80, 80));
+}
+
+.perfis_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.perfil {
+    background: #f0cb476e;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
