@@ -10,8 +10,9 @@
 
 
 /* Gerar a borda curva no final da seção */
+
 .curved-div {
-    background: #f0cb476e;
+    background: linear-gradient(#917E4E, rgb(255, 255, 255)) ;
     color: #000000;
     text-align: center;
 }

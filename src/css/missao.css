@@ -5,5 +5,39 @@
     list-style:none;
     border:0;
     font-family: sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: small;
 }
 /* esse codi acima zera todo o Css */
+
+body {
+    /* background: linear-gradient(black, rgb(63, 63, 63)); */
+    background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgb(63, 63, 63))) fixed;
+    padding: 10% 5%;
+}
+
+/* div do conteudo principal */
+.mission-content {
+    background-color: rgba(255, 255, 255, 0.150);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #917E4E;
+    border-radius: 2vw;
+    width: 85%;
+    padding: 4%;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-size: x-large;
+}
+
+h2 {
+    font-size: medium;
+    margin-bottom: 5%;
+}
