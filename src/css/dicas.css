@@ -5,5 +5,12 @@
     list-style:none;
     border:0;
     font-family: sans-serif;
+    color: white;
 }
 /* esse codi acima zera todo o Css */
+
+body {
+     background: linear-gradient(black, rgb(63, 63, 63));
+     width: 100vw;
+     height: 100vh;
+}

@@ -47,11 +47,15 @@ iframe {
 
 section {
     margin-bottom: 0px;
-    border-top: 2px solid #F0CB47 ;
+    border-top: 4px solid #f1d639 ;
+    
+
     height: 100vh;
     
 }
 
 footer {
     border-top: 2px solid #F0CB47;
+    background-image: linear-gradient(black, rgb(80, 80, 80));
+
 }

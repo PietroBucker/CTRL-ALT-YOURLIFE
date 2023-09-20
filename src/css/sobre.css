@@ -11,13 +11,13 @@
 
 /* Gerar a borda curva no final da seção */
 
-.curved-div {
+/* .curved-div {
     background: linear-gradient(#917E4E, rgb(255, 255, 255)) ;
     color: #000000;
     text-align: center;
-}
+} */
 
-.curved-div h1 {
+/* .curved-div h1 {
     font-size: 6rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 0;
@@ -30,4 +30,24 @@
 
 .curved-div svg {
     display: block;
+} */
+
+body {
+    background: linear-gradient(#917E4E, rgb(255, 241, 202));
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.150);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #917E4E;
+    border-radius: 2vw;
+    width: 85%;
+    padding: 4%;
+    margin: auto;
 }

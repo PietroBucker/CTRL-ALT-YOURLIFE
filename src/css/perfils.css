@@ -11,31 +11,63 @@
 h2 {
     font-size: 3rem;
     text-align: center;
-    color: #f0cb47;
+    color: black;
 }
 
 section {
-    align-items: center;
-    background-image: linear-gradient(black, rgb(80, 80, 80));
+    background: linear-gradient(#917E4E, rgb(255, 236, 196));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .perfis_container {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
-    /* height: 100vh; */
-    /* max-width: 1200px; */
+    height: 100%;
+    
 }
 
 .perfil {
-    background: #f0cb476e;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    /* height: 100vh; */
-    /* max-width: 1200px; */
+    background-color: rgba(255, 255, 255, 0.150);
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
+    margin: auto;
+    padding: 4%;
+    width: 85%;
+    height: 35%;
+    border: 2px solid black;
+    border-radius: 4vw;
+
+
 }
 
+.contatos-content {
+    border: 1px solid black;
+    border-radius: 3vw;
+    padding: 3%;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    font-size: small;
+}
+
+.stacks {
+    font-size: x-small;
+    display: flex;
+    justify-content: space-around;
+}
