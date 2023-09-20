@@ -17,7 +17,9 @@ Espaço aberto para recrutadores realizar uma busca refinada e de qualidade com 
 | Jet               |    #34312d   |
 | Gray              |    #7e7f83   |
 | Gold Metalic      |    #e1b942   |
-| Gold              |    #ffd413   |     
+| Gold              |    #ffd413   |
+| Skype Blue        |    #00AFF0   |
+| Dark nav blue     |    #0B0B45   |
 
 https://github.com/PietroBucker/CTRL-ALT-YOURLIFE/blob/main/img/logo-2x.png
 
