@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,30 @@
     <!-- esse link abaixo é o do css -->
     <link rel="stylesheet" href="../css/cadastro.css">
 </head>
+
 <body>
-    <h1>CADASTRO</h1>
-    <label for="descricao">DESCRIÇÂO
-        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
-    </label>
-    <label for="foto">FOTO
-        <input name="foto" type="text">
-    </label>
-    <label for="link1">LINK1
-        <input name="link1" type="text">
-    </label>
-    <label for="link2">LINK2
-        <input name="link2" type="text">
-    </label>
-    <label for="link3">LINK3
-        <input name="link3" type="text">
-    </label>
-    <label for="stacks">STACKS
-        <input name="stacks" type="text">
-    </label>
+    <section>
+        <h1 class="title">CADASTRO</h1>
+        <form class="form-content">        
+            <label for="foto">FOTO</label>
+            <input name="foto" type="text">        
+            
+            <label for="link1">LINK1</label>
+            <input name="link1" type="text">
+            
+            <label for="link2">LINK2</label>
+            <input name="link2" type="text">
+            
+            <label for="link3">LINK3</label>
+            <input name="link3" type="text">
+            
+            <label for="stacks">STACKS</label>
+            <input name="stacks" type="text">
+            
+            <label for="descricao">DESCRIÇÂO</label>
+            <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+        </form>
+        <button type="button" class="action">Cadastrar</button>
+    </section>
 </body>
 </html>
