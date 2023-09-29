@@ -1,12 +1,11 @@
 * {
-    padding:0;
-    margin:0;
-    vertical-align:baseline;
-    list-style:none;
-    border:0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
     font-family: sans-serif;
 }
-/* esse codi acima zera todo o Css */
 
 h2 {
     font-size: 3rem;
@@ -15,11 +14,16 @@ h2 {
 }
 
 section {
-    background: linear-gradient(#917E4E, rgb(255, 236, 196));
+    background: linear-gradient(#917e4e, rgb(255, 236, 196));
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+#perfils {
+    overflow-y: auto; /* adiciona uma barra de rolagem vertical quando necessário */
+    height: 100vh; /* faz a seção ter a altura da tela */
 }
 
 .perfis_container {
@@ -28,25 +32,21 @@ section {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    
 }
 
 .perfil {
-    background-color: rgba(255, 255, 255, 0.150);
+    background-color: rgba(255, 255, 255, 0.15);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
     margin: auto;
     padding: 4%;
     width: 85%;
-    height: 35%;
     border: 2px solid black;
     border-radius: 4vw;
-
-
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contatos-content {
-    border: 1px solid black;
-    border-radius: 3vw;
     padding: 3%;
     display: flex;
     width: 60%;
@@ -59,6 +59,20 @@ section {
     justify-content: space-around;
 }
 
+.perfil-foto img {
+    border-radius: 50%; /* faz a imagem aparecer em forma circular */
+    border: 2px solid black; /* adiciona uma borda preta */
+    object-fit: cover; /* faz a imagem cobrir todo o espaço disponível, mantendo a proporção */
+    max-width: 60%; /* garante que a imagem nunca exceda a largura do contêiner pai */
+    height: auto; /* ajusta a altura automaticamente para manter a proporção da imagem */
+}
+
+.nome-pessoa {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
 .contatos {
     display: flex;
     justify-content: space-around;
@@ -66,8 +80,36 @@ section {
     font-size: small;
 }
 
+.social-icon {
+    display: block;
+    margin: auto;
+    width: 50px; /* ou o tamanho que você preferir */
+    height: 50px; /* ou o tamanho que você preferir */
+}
+
+.descricao {
+    text-align: justify; /* alinha o texto */
+    text-indent: 50px; /* cria uma margem no início do parágrafo */
+    max-width: 500ch; /* limita a largura do parágrafo a 500 caracteres */
+    overflow-wrap: break-word; /* quebra as palavras para evitar o overflow */
+    word-wrap: break-word;
+    margin-top: 5%;
+}
+
 .stacks {
+    margin-top: 5%;
     font-size: x-small;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .nome-pessoa {
+        font-size: 1em; /* ou o tamanho que você preferir */
+    }
+
+    .social-icon {
+        width: 30px; /* ou o tamanho que você preferir */
+        height: 30px; /* ou o tamanho que você preferir */
+    }
 }
