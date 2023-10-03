@@ -32,6 +32,8 @@ section {
     justify-content: space-between;
     width: 100%;
     height: 100%;
+    padding-bottom: 5vh;
+    
 }
 
 .perfil {
@@ -44,6 +46,9 @@ section {
     border-radius: 4vw;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 5vh;
+    
+
 }
 
 .contatos-content {

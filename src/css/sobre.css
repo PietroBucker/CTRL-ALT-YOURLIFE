@@ -36,8 +36,17 @@ body {
     background: linear-gradient(#917E4E, rgb(255, 241, 202));
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: medium;
 }
-
+h2 {
+    margin-bottom: 3vh;
+}
+p {
+    margin-top: 2vh;
+}
 .content {
     background-color: rgba(255, 255, 255, 0.150);
     box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.295);
