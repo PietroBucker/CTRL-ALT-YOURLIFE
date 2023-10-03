@@ -65,3 +65,15 @@ footer {
 footer p {
     margin-top: 1vh;
 }
+
+@media (min-width: 768px)  {
+    header nav a {
+        font-size: large;
+    }
+}
+
+@media (min-width: 1440px)  {
+    header nav a {
+        font-size: x-large;
+    }
+}

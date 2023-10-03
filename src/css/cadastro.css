@@ -78,6 +78,26 @@ input {
 }
 
 textarea {
-    resize: none;
-    height: 10vh;
+    width: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 425px)  {
+    label {
+        font-size: large;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px)  {
+    label {
+        font-size: large;
+    }
+    
+}
+
+@media (min-width: 1440px)  {
+    label {
+        font-size: x-large;
+    }
+    
 }

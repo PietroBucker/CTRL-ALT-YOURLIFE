@@ -41,3 +41,18 @@ h2 {
     font-size: medium;
     margin-bottom: 5%;
 }
+
+@media (min-width: 768px)  {
+    * {
+        font-size: large;
+    }
+}
+
+@media (min-width: 1440px)  {
+    *, h2 {
+        font-size: x-large;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+}

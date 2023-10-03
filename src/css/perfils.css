@@ -118,3 +118,15 @@ section {
         height: 30px; /* ou o tamanho que você preferir */
     }
 }
+
+@media (min-width: 768px)  {
+    * {
+        font-size: large;
+    }
+}
+
+@media (min-width: 1440px)  {
+    * {
+        font-size: x-large;
+    }
+}
