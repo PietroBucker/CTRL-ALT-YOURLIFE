@@ -29,10 +29,10 @@ h1 {
 }
 
 h2 {
-    text-shadow: 2px 2px 5px #14110f;
+    text-shadow: 5px 5px 5px #14110f;
     font-size: 32px;
     font-style: italic; 
-
+    margin: 0 auto;
 }
 p {
     font-size: 20px;
@@ -42,3 +42,5 @@ p {
     padding-right: 15px;
     
 }
+
+
