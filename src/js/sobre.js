@@ -16,8 +16,8 @@ container.appendChild(novoParagrafo);
 
 //----------Remover um elemento na DOM------------//
 
-let novoParagrafo = document.getElementById("novoParagrafo");
-elementoParaRemover.parentNode.removeChild(novoParagrafo);
+novoParagrafo = document.getElementById("novoParagrafo");
+// elementoParaRemover.parentNode.removeChild(novoParagrafo);
 
 //-----------Criando o evento onclick-------------//
 
