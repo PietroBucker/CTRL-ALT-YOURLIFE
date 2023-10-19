@@ -69,7 +69,8 @@ section {
     border: 2px solid black; /* adiciona uma borda preta */
     object-fit: cover; /* faz a imagem cobrir todo o espaço disponível, mantendo a proporção */
     max-width: 80%; /* garante que a imagem nunca exceda a largura do contêiner pai */
-    height: auto; /* ajusta a altura automaticamente para manter a proporção da imagem */
+    width: 207px;
+    height: 158px;
 }
 
 .nome-pessoa {
