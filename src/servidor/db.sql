@@ -35,12 +35,25 @@ CREATE TABLE dica (
     FOREIGN KEY (usuario_id) REFERENCES usuario(id)
 );
 
+DELIMITER $$
+CREATE TRIGGER trigger_atualiza_email
+BEFORE INSERT ON contato
+FOR EACH ROW
+BEGIN
+    IF NEW.email IS NULL THEN
+        SET NEW.email='add um email';
+    END IF;
+END;
+$$
+
 INSERT INTO usuario(nome, sobre_nome, foto_url) 
 VALUES ('Cleverson','Guandalin','../img/cleverson.jpg'),
        ('Fernando','Bettiol Lopes','../img/fernando.jpg'),
        ('Pietro','Canuto Bucker Franchini','../img/pietro.jpg'),
        ('Tiago','Lima Reis','../img/tiago.jpg'),
+       ('Vanderlei','Princival','../img/vanderlei.jpg'),
        ('Vanderlei','Princival','../img/vanderlei.jpg');
+       
 
 INSERT INTO contato(id, linkedin, github, email) 
 VALUES (
@@ -72,7 +85,14 @@ VALUES (
         "https://www.linkedin.com/in/vanderlei-princival",
         "https://www.github.com/pessoa1",
         "vanderlei.princival@gmail.com"
+       ),
+       (
+        6, 
+        "https://www.linkedin.com/in/vanderlei-princival",
+        "https://www.github.com/pessoa1",
+        NULL
        );
+       
 
 INSERT INTO informacao(id, descricao, stacks) 
 VALUES (
@@ -97,5 +117,9 @@ VALUES (
     (
         5, 'Sou Vanderlei, um estudante de front-end com ênfase em AWS pela ProzEducacao Tenho experiência como analista de TI, atuando em suporte, manutenção, administração e segurança de sistemas, redes e infraestrutura. Sou um profissional com habilidades de resolução de problemas, soluções tecnológicas, suporte ao usuário e trabalho em equipe. Busco sempre me atualizar e aprimorar meus conhecimentos para enfrentar os desafios da área de TI.',
         '["JavaScript", "Redes", "Windows", "Linux"]'
+    ),
+     (
+        6, 'Sou Vanderlei, um estudante de front-end com ênfase em AWS pela ProzEducacao Tenho experiência como analista de TI, atuando em suporte, manutenção, administração e segurança de sistemas, redes e infraestrutura. Sou um profissional com habilidades de resolução de problemas, soluções tecnológicas, suporte ao usuário e trabalho em equipe. Busco sempre me atualizar e aprimorar meus conhecimentos para enfrentar os desafios da área de TI.',
+        '["JavaScript", "Redes", "Windows", "Linux"]'
     );
-
+    
