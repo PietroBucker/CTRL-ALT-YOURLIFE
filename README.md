@@ -60,14 +60,19 @@ https://github.com/PietroBucker/CTRL-ALT-YOURLIFE/blob/main/img/logo-2x.png
 **Apresentar a equipe introdução e a visão (Tiago)**
 
 Pietro  desenvolvedor em JS, Typescript, front end e back end;
-Tiago  futuro desenvolvedor, aprendendo Front end com ênfase em AWS pela PROZEDUCAÇÂO;
-Cleverson Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
-Fernando Betiiol desenvolvedor - (especificar linguagens para falar)
-Vanderlei desenvolvedor -(especificar  linguagens para falar)
 
-Imagine um mundo em constante transformação digital e tecnológica onde não é apenas uma ferramenta esta é a....CTRL+ALT+YOURLIFE, um site não só para profissionais capacitados mas como para um público em geral de desenvolvedores que irão atender esse mercado em constante mudanças .
+Tiago  futuro desenvolvedor, aprendendo Front end com ênfase em AWS pela PROZEDUCAÇÂO;
+
+Cleverson Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
+
+Fernando Betiiol desenvolvedor - (especificar linguagens para falar);
+
+Vanderlei desenvolvedor -(especificar  linguagens para falar);
+
+Imagine um mundo em constante transformação digital e tecnológica onde não é apenas uma ferramenta esta é a....CTRL+ALT+YOURLIFE, um site não só para desenvolvedores e profissionais capacitados mas como para um público em geral da area de desenvolvimento que irão atender esse mercado em constantes mudanças .
+
 O mundo está em constante evolução, impulsionado por grandes avanços tecnológicos e mudanças sociais. 
-É aí que entra a CTRL+ALT+YOURLIFE onde estamos focados em resolver essa demanda que é a escassez de profissionais na área de desenvolvimento ao redor do mundo.
+É aí que entra a CTRL+ALT+YOURLIFE por que estamos focados em resolver essa demanda que é a escassez de profissionais na área de desenvolvimento ao redor do mundo.
 
 **2º parte(Cleverson)- Apresentar a solução***
 
