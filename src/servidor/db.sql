@@ -6,32 +6,32 @@ USE your_life_db;
 
 CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(20),
-    sobre_nome VARCHAR(50),
-    foto_url VARCHAR(255)
+    nome VARCHAR(20) NULL,
+    sobre_nome VARCHAR(50) NULL,
+    foto_url VARCHAR(255) NULL 
 );
 
 CREATE TABLE contato (
     id INT PRIMARY KEY,
-    linkedin VARCHAR(100),
-    github VARCHAR(100),
-    email VARCHAR(100),
+    linkedin VARCHAR(100) NULL,
+    github VARCHAR(100) NULL,
+    email VARCHAR(100) NULL,
     FOREIGN KEY (id) REFERENCES usuario(id)
 );
 
 CREATE TABLE informacao (
     id INT PRIMARY KEY,
-    descricao TEXT(500),
-    stacks JSON,
+    descricao TEXT(500) NULL,
+    stacks JSON NULL,
     FOREIGN KEY (id) REFERENCES usuario(id)
 );
 
 
 CREATE TABLE dica (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    descricao TEXT(500),
-    ref_url VARCHAR(50),
-    usuario_id INT,
+    descricao TEXT(500) NULL,
+    ref_url VARCHAR(50) NULL,
+    usuario_id INT NULL,
     FOREIGN KEY (usuario_id) REFERENCES usuario(id)
 );
 
@@ -51,7 +51,6 @@ VALUES ('Cleverson','Guandalin','../img/cleverson.jpg'),
        ('Fernando','Bettiol Lopes','../img/fernando.jpg'),
        ('Pietro','Canuto Bucker Franchini','../img/pietro.jpg'),
        ('Tiago','Lima Reis','../img/tiago.jpg'),
-       ('Vanderlei','Princival','../img/vanderlei.jpg'),
        ('Vanderlei','Princival','../img/vanderlei.jpg');
        
 
@@ -85,12 +84,6 @@ VALUES (
         "https://www.linkedin.com/in/vanderlei-princival",
         "https://www.github.com/pessoa1",
         "vanderlei.princival@gmail.com"
-       ),
-       (
-        6, 
-        "https://www.linkedin.com/in/vanderlei-princival",
-        "https://www.github.com/pessoa1",
-        NULL
        );
        
 
@@ -116,10 +109,6 @@ VALUES (
     ),
     (
         5, 'Sou Vanderlei, um estudante de front-end com ênfase em AWS pela ProzEducacao Tenho experiência como analista de TI, atuando em suporte, manutenção, administração e segurança de sistemas, redes e infraestrutura. Sou um profissional com habilidades de resolução de problemas, soluções tecnológicas, suporte ao usuário e trabalho em equipe. Busco sempre me atualizar e aprimorar meus conhecimentos para enfrentar os desafios da área de TI.',
-        '["JavaScript", "Redes", "Windows", "Linux"]'
-    ),
-     (
-        6, 'Sou Vanderlei, um estudante de front-end com ênfase em AWS pela ProzEducacao Tenho experiência como analista de TI, atuando em suporte, manutenção, administração e segurança de sistemas, redes e infraestrutura. Sou um profissional com habilidades de resolução de problemas, soluções tecnológicas, suporte ao usuário e trabalho em equipe. Busco sempre me atualizar e aprimorar meus conhecimentos para enfrentar os desafios da área de TI.',
         '["JavaScript", "Redes", "Windows", "Linux"]'
     );
     

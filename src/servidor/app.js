@@ -13,10 +13,18 @@ app.get('/getAPI', async (req, res) => {
     return res.status(200).json(result);
 })
 
-app.post('/teste', async (req, res) => {
-    const {nome} = req.body;
-    const result = await user.insert(nome);
-    return res.status(200).json(result);
+app.post('/cadastro', async (req, res) => {
+    console.log(!req.body.nome);
+    if (!req.body.nome) {
+        console.log('aqui');
+        return res.status(400).json({ message: "Dados inválidos" });
+    }
+
+    const result = await user.insertUser(req.body);
+    if (result === 0) {
+        return res.status(400).json({ message: "Não foi possível cadastrar o usuário" });
+    }
+    return res.status(200).json({message: "Usuário cadastrado com sucesso"});
 })
 
 app.get('/', (req, res) => {
