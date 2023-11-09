@@ -65,7 +65,7 @@ Tiago  futuro desenvolvedor, aprendendo Front end com ênfase em AWS pela PROZED
 
 Cleverson Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
 
-Fernando Betiiol desenvolvedor - (especificar linguagens para falar);
+Fernando Betiiol desenvolvedor - Analista de TI, futuro desenvolvedor(Azure, AWS, HTML, JavaScript);
 
 Vanderlei desenvolvedor -(especificar  linguagens para falar);
 
