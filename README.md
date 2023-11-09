@@ -67,7 +67,7 @@ Cleverson Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
 
 Fernando Betiiol desenvolvedor - Analista de TI, futuro desenvolvedor(Azure, AWS, HTML, JavaScript);
 
-Vanderlei desenvolvedor -(especificar  linguagens para falar);
+Vanderlei desenvolvedor - Analista de TI, estudando para ser desenvolvedor, com foco em segurança da informação AWS, AZURE;
 
 Imagine um mundo em constante transformação digital e tecnológica onde não é apenas uma ferramenta esta é a....CTRL+ALT+YOURLIFE, um site não só para desenvolvedores e profissionais capacitados mas como para um público em geral da area de desenvolvimento que irão atender esse mercado em constantes mudanças .
 
