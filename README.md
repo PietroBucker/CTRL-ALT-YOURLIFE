@@ -57,37 +57,52 @@ https://github.com/PietroBucker/CTRL-ALT-YOURLIFE/blob/main/img/logo-2x.png
 
 ## Nosso pitch de apresentação final.
 
-**Apresentar a equipe introdução e a visão (Tiago)**
+**Apresentar a equipe introdução e a visão (Tiago)** 
 
-Pietro  desenvolvedor em JS, Typescript, front end e back end;
+CTRL+ALT+YOURLIFE Grupo 6
+Pietro Bucker - desenvolvedor em JS, Typescript, front end e back end;
+ 
+Tiago Lima - futuro desenvolvedor, aprendendo Front end com ênfase em AWS pela PROZEDUCAÇÂO;
+ 
+Cleverson Guandalin - Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
+ 
+Fernando Bettiol - Analista de TI, futuro desenvolvedor(Azure, AWS, HTML, JavaScript;
+ 
+Vanderlei Princival - Analista de TI, estudando para ser desenvolvedor, com foco em segurança da informação AWS, AZURE;
 
-Tiago  futuro desenvolvedor, aprendendo Front end com ênfase em AWS pela PROZEDUCAÇÂO;
+***Introdução***
 
-Cleverson Apaixonado por tecnologia, filmes e dados e linguagens Python, JS;
+Nossa plataforma proporciona uma vitrine virtual para desenvolvedores apresentarem seus portfólios de forma simplificada e impactante.
 
-Fernando Betiiol desenvolvedor - Analista de TI, futuro desenvolvedor(Azure, AWS, HTML, JavaScript);
-
-Vanderlei desenvolvedor - Analista de TI, estudando para ser desenvolvedor, com foco em segurança da informação AWS, AZURE;
-
-Imagine um mundo em constante transformação digital e tecnológica onde não é apenas uma ferramenta esta é a....CTRL+ALT+YOURLIFE, um site não só para desenvolvedores e profissionais capacitados mas como para um público em geral da area de desenvolvimento que irão atender esse mercado em constantes mudanças .
+Imagine um mundo em constante transformação digital e tecnológica onde não é apenas uma ferramenta esta é a....CTRL+ALT+YOURLIFE, um site não só para desenvolvedores e profissionais capacitados mas como para um público em geral da area de desenvolvimento que irão atender esse mercado em constante mudanças .
+ 
+***Visão***
 
 O mundo está em constante evolução, impulsionado por grandes avanços tecnológicos e mudanças sociais. 
-É aí que entra a CTRL+ALT+YOURLIFE por que estamos focados em resolver essa demanda que é a escassez de profissionais na área de desenvolvimento ao redor do mundo.
 
-**2º parte(Cleverson)- Apresentar a solução***
+É aí que entra a CTRL+ALT+YOURLIFE por que estamos focados em resolver essa demanda que é a escassez de profissionais na área dedesenvolvimento ao redor do mundo.	
 
-Nossa solução não é revolucionária e sim prática onde vamos garantir a vocês recrutadores que irão acessar nossa plataforma em busca de profissionais qualificados.
-Ressaltamos que isso não será apenas uma oportunidade para os profissionais e desenvolvedores que querem entra no mercado e sim um grande impacto em suas vidas
+***Solução***
 
-**3º parte(Fernando)-Destacar o mercado e a oportunidade***
-O mercado está pronto para a nossa solução?  
-A resposta é SIM como dissemos anteriormente nossa solução não é revolucionária e sim prática, e estamos prontos para atender esse mercado em crescimento bem como a expectativas dos recrutadores.
+Nossa solução não é revolucionária e sim prática onde vamos garantir a vocês recrutadores que irão acessar nossa plataforma em busca de profissionais qualificados. 
 
-**4º parte(Princival)- Conclusão**
+Ressaltamos que isso não será apenas uma oportunidade para os profissionais e desenvolvedores que querem entra no mercado e sim um grande impacto em suas vidas.
 
-A CTRL+ALT+YOURLIFE não é apenas um site ; é uma oportunidade de fazer parte de algo maior, e fazer a diferença no mundo. 
-Junte-se a nós nessa emocionante jornada e faça parte do nosso sucesso.
-Agradeçemos por sua atenção e vamos construir um futuro brilhante juntos. 
+***Mercado e a oportunidade***
+
+O mercado está pronto para a nossa solução?
+
+A resposta é SIM como dissemos anteriormente nossa solução não é revolucionária e sim prática, e estamos prontos para atender esse mercado em crescimento bem como a expectativas dos recrutadores que procuram mão de obra qualificada e alem de tudo profissionalismo.	
+
+***Conclusão***
+
+A CTRL+ALT+YOURLIFE não é apenas um site, é uma oportunidade de fazer parte de algo maior, fazer a diferença no mundo. 
+
+Junte-se a nós nessa emocionante jornada e faça parte do nosso sucesso. 
+
+Agradeçemos por sua atenção e vamos construir um futuro brilhante juntos.  
+
 Obrigado.
+
 
 **Final apresentação do site (Pietro)**
